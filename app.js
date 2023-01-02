@@ -9,6 +9,10 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
+//connect db
+// require('./bin/connect_mongo');
+// require('./bin/connect_redis');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
